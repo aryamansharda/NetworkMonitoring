@@ -16,6 +16,7 @@
 		933997DD27C08E070043BB5C /* NetworkConnectivityManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933997DC27C08E070043BB5C /* NetworkConnectivityManagerTests.swift */; };
 		933997E727C08E070043BB5C /* NetworkConnectivityManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933997E627C08E070043BB5C /* NetworkConnectivityManagerUITests.swift */; };
 		933997E927C08E070043BB5C /* NetworkConnectivityManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933997E827C08E070043BB5C /* NetworkConnectivityManagerUITestsLaunchTests.swift */; };
+		933997F627C08E120043BB5C /* NetworkConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933997F527C08E120043BB5C /* NetworkConnectivityManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		933997E227C08E070043BB5C /* NetworkConnectivityManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkConnectivityManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		933997E627C08E070043BB5C /* NetworkConnectivityManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnectivityManagerUITests.swift; sourceTree = "<group>"; };
 		933997E827C08E070043BB5C /* NetworkConnectivityManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnectivityManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		933997F527C08E120043BB5C /* NetworkConnectivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConnectivityManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				933997C527C08E070043BB5C /* AppDelegate.swift */,
 				933997C727C08E070043BB5C /* SceneDelegate.swift */,
 				933997C927C08E070043BB5C /* ViewController.swift */,
+				933997F527C08E120043BB5C /* NetworkConnectivityManager.swift */,
 				933997CB27C08E070043BB5C /* Main.storyboard */,
 				933997CE27C08E070043BB5C /* Assets.xcassets */,
 				933997D027C08E070043BB5C /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				933997CA27C08E070043BB5C /* ViewController.swift in Sources */,
 				933997C627C08E070043BB5C /* AppDelegate.swift in Sources */,
+				933997F627C08E120043BB5C /* NetworkConnectivityManager.swift in Sources */,
 				933997C827C08E070043BB5C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
